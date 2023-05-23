@@ -1,7 +1,10 @@
 // escribe la función sum acá
 function sum (...[x]){
-    return x.reduce((a,b) => a + b, 0);
-    
+    var summ = 0;
+    for (var i=0; i <x.length; i++){
+        summ +=x[i];
+    }
+    return summ;    
 }
 
 
